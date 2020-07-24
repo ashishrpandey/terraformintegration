@@ -1,9 +1,8 @@
-Objective:
-To use packer Terrafrom and Jenkins to automate deployment of an immutable server.
+## Objective: To use packer Terrafrom and Jenkins to automate deployment of an immutable server.
 
 
-Steps for integration:
-1. Create a image using Dockerfile.
+### Steps for integration:
+* Create a image using Dockerfile.
 	The purpose is to have terraform, packer and git installed at one place
 
 	2. push the image to:  goforgold/build-container:latest
