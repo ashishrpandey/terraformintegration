@@ -22,7 +22,7 @@
 	- File provisioner to copy project code.
 	- Ansible provisioner to configure our machine.
 
-7. Write jenkinspipeline 
+7. Write jenkinspipeline and trigger the job on jenkins.
 
 
 Reference :
