@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'goforgold/build-container:latest'
+      image 'ashishrpandey/terraformintegration:latest'
     }
   }
   stages {
