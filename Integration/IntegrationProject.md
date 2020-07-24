@@ -1,7 +1,8 @@
-## Objective: To use packer Terrafrom and Jenkins to automate deployment of an immutable server.
+## Objective: To use Packer, Terrafrom, Ansible and Jenkins to automate deployment of an immutable server.
 
 
 ### Steps for integration:
+
 1. Build an image using Dockerfile.
 	The purpose is to have terraform, packer and git installed at one place
 
@@ -25,5 +26,5 @@
 7. Write jenkinspipeline and trigger the job on jenkins.
 
 
-Reference :
+With thanks to:
 https://medium.com/@I_M_Harsh/build-and-deploy-using-jenkins-packer-and-terraform-40b2aafedaec
