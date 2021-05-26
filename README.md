@@ -11,12 +11,12 @@ Steps for integration:
 
 3. Prepare packer.json file nad put it under packer directory
 
-4. 
- Create Ansible Playbook ansible-playbook.yml put it under packer directory 
+4.  Create Ansible Playbook ansible-playbook.yml put it under packer directory 
  
- 5.
-$ packer validate example.json
-Template validated successfully.
+ 5. validate Packer 
+
+	$ packer validate example.json
+	Template validated successfully.
 
 6. inside the packer.json 3 povisioners are being used:
 Shell provisioner to install Ansible and create project directory home/ubuntu/node-app.
